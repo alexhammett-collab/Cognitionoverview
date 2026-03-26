@@ -4,6 +4,7 @@ import FadeIn from "./FadeIn";
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 import Image from "next/image";
+import { useTheme } from "./ThemeProvider";
 
 const OUTCOMES = [
   "Faster delivery",
@@ -15,6 +16,8 @@ const OUTCOMES = [
 export default function ClosingSection() {
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-80px" });
+  const { theme } = useTheme();
+  const logoSrc = theme === "light" ? "/cognition-logo-dark.png" : "/cognition-logo.png";
 
   return (
     <section className="relative py-16 overflow-hidden">
@@ -79,7 +82,7 @@ export default function ClosingSection() {
         <FadeIn delay={0.3}>
           <div className="flex items-center justify-center mb-3">
             <Image
-              src="/cognition-logo.png"
+              src={logoSrc}
               alt="Cognition"
               width={220}
               height={50}

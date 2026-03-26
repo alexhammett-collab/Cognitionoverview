@@ -1,6 +1,7 @@
 @import "tailwindcss";
 
-:root {
+:root,
+[data-theme="dark"] {
   --background: #06060a;
   --foreground: #e8e8ed;
   --accent: #6366f1;
@@ -9,6 +10,23 @@
   --surface-light: #16161f;
   --border: #1e1e2a;
   --muted: #71717a;
+  --glass-bg: rgba(15, 15, 21, 0.6);
+  --glass-border: rgba(30, 30, 42, 0.8);
+  --selection-color: #fff;
+}
+
+[data-theme="light"] {
+  --background: #ffffff;
+  --foreground: #0f0f15;
+  --accent: #4f46e5;
+  --accent-light: #6366f1;
+  --surface: #f4f4f6;
+  --surface-light: #eaeaee;
+  --border: #d4d4d8;
+  --muted: #6b7280;
+  --glass-bg: rgba(244, 244, 246, 0.7);
+  --glass-border: rgba(212, 212, 216, 0.8);
+  --selection-color: #fff;
 }
 
 @theme inline {
@@ -36,7 +54,7 @@ html {
 
 ::selection {
   background: rgba(99, 102, 241, 0.3);
-  color: #fff;
+  color: var(--selection-color);
 }
 
 @keyframes grid-fade {
@@ -65,10 +83,17 @@ html {
   background-clip: text;
 }
 
+[data-theme="light"] .gradient-text {
+  background: linear-gradient(135deg, #0f0f15 0%, #4f46e5 50%, #6366f1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 .glass-card {
-  background: rgba(15, 15, 21, 0.6);
+  background: var(--glass-bg);
   backdrop-filter: blur(12px);
-  border: 1px solid rgba(30, 30, 42, 0.8);
+  border: 1px solid var(--glass-border);
 }
 
 .glow-line {
