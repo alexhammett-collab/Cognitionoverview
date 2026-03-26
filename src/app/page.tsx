@@ -9,6 +9,7 @@ import EnterpriseScenarios from "@/components/EnterpriseScenarios";
 import DetailBlocks from "@/components/DetailBlocks";
 import ClosingSection from "@/components/ClosingSection";
 import SectionDivider from "@/components/SectionDivider";
+import CapacityMultiplier from "@/components/CapacityMultiplier";
 
 export default function Home() {
   return (
@@ -22,6 +23,8 @@ export default function Home() {
         <PlatformOverview />
         <SectionDivider />
         <RegulatedEnterprises />
+        <SectionDivider />
+        <CapacityMultiplier />
         <SectionDivider />
         <UseCases />
         <SectionDivider />

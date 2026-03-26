@@ -28,7 +28,10 @@ export default function EnterpriseShift() {
             </p>
             <p>
               The challenge is no longer just writing code faster. It is reducing
-              friction across the full software and operations lifecycle.
+              friction across the full software and operations lifecycle — and
+              building a delivery model where virtual engineering resources work
+              alongside human teams to create capacity that programme offices can
+              actually plan around.
             </p>
           </div>
         </FadeIn>

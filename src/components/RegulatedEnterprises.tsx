@@ -24,7 +24,7 @@ const BULLETS = [
   },
   {
     icon: Users,
-    text: "Increases output without assuming unlimited specialist headcount",
+    text: "Increases output through blended human and virtual engineering capacity, giving PMOs a delivery model they can forecast against",
   },
   {
     icon: Zap,

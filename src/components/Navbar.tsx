@@ -9,7 +9,6 @@ const NAV_LINKS = [
   { label: "Platform", href: "#platform" },
   { label: "Enterprise", href: "#enterprise" },
   { label: "Use Cases", href: "#use-cases" },
-  { label: "How It Works", href: "#how-it-works" },
 ];
 
 export default function Navbar() {
