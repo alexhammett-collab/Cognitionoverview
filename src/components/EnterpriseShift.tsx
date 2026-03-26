@@ -4,7 +4,7 @@ import FadeIn from "./FadeIn";
 
 export default function EnterpriseShift() {
   return (
-    <section className="relative py-32 overflow-hidden">
+    <section className="relative py-16 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-background via-surface/30 to-background" />
       <div className="relative z-10 max-w-4xl mx-auto px-6">
         <FadeIn>
@@ -28,8 +28,8 @@ export default function EnterpriseShift() {
             </p>
             <p>
               The challenge is no longer just writing code faster. It is reducing
-              friction across the full software and operations lifecycle — and
-              building a delivery model where virtual engineering resources work
+              friction across the full software and operations lifecycle. That
+              means building a delivery model where virtual engineering resources work
               alongside human teams to create capacity that programme offices can
               actually plan around.
             </p>

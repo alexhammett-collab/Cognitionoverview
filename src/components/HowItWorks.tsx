@@ -68,7 +68,7 @@ export default function HowItWorks() {
   const isInView = useInView(sectionRef, { once: true, margin: "-100px" });
 
   return (
-    <section id="how-it-works" className="relative py-32 overflow-hidden">
+    <section id="how-it-works" className="relative py-16 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-background via-surface/30 to-background" />
       <div ref={sectionRef} className="relative z-10 max-w-7xl mx-auto px-6">
         <FadeIn className="text-center mb-20">

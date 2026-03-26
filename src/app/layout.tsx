@@ -13,11 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Cognition — Engineering Velocity for Complex, High-Trust Enterprises",
+  title: "Cognition | Engineering Velocity for Complex, High-Trust Enterprises",
   description:
     "Unify coding, autonomous development, code review and codebase intelligence to accelerate delivery, strengthen quality and improve operational resilience.",
   openGraph: {
-    title: "Cognition — Engineering Velocity for Complex, High-Trust Enterprises",
+    title: "Cognition | Engineering Velocity for Complex, High-Trust Enterprises",
     description:
       "One platform for building, reviewing, testing, securing and responding faster.",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Cognition — Engineering Velocity for Complex, High-Trust Enterprises",
+    title: "Cognition | Engineering Velocity for Complex, High-Trust Enterprises",
     description:
       "One platform for building, reviewing, testing, securing and responding faster.",
   },

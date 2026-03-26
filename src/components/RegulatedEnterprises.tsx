@@ -34,7 +34,7 @@ const BULLETS = [
 
 export default function RegulatedEnterprises() {
   return (
-    <section id="enterprise" className="relative py-32">
+    <section id="enterprise" className="relative py-16">
       <div className="absolute inset-0 bg-gradient-to-b from-background via-surface/20 to-background" />
       <div className="relative z-10 max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">

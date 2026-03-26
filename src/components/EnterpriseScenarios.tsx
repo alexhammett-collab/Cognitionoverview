@@ -43,7 +43,7 @@ const SCENARIOS = [
 
 export default function EnterpriseScenarios() {
   return (
-    <section className="relative py-32">
+    <section className="relative py-16">
       <div className="max-w-7xl mx-auto px-6">
         <FadeIn className="text-center mb-16">
           <p className="text-accent text-sm font-medium tracking-widest uppercase mb-4">

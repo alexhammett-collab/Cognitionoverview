@@ -38,7 +38,7 @@ const BLOCKS = [
 
 export default function DetailBlocks() {
   return (
-    <section className="relative py-32">
+    <section className="relative py-16">
       <div className="absolute inset-0 bg-gradient-to-b from-background via-surface/20 to-background" />
       <div className="relative z-10 max-w-5xl mx-auto px-6 space-y-12">
         {BLOCKS.map((block, i) => {

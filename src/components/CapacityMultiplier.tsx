@@ -41,7 +41,7 @@ export default function CapacityMultiplier() {
   const isInView = useInView(ref, { once: true, margin: "-80px" });
 
   return (
-    <section className="relative py-32 overflow-hidden">
+    <section className="relative py-16 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-background via-surface/20 to-background" />
       <div ref={ref} className="relative z-10 max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
@@ -68,7 +68,7 @@ export default function CapacityMultiplier() {
                 </p>
                 <p>
                   Cognition&apos;s platform introduces virtual engineering resources
-                  that work harmoniously alongside human teams — picking up
+                  that work harmoniously alongside human teams, picking up
                   well-scoped tasks, executing in parallel, and feeding work back
                   through the same review and governance processes your
                   organisation already trusts.
